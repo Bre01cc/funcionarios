@@ -20,7 +20,6 @@ body {
     align-items: center;
     width: 90%;
     height: 35%;
-    background-color: antiquewhite;
     padding: 5px;
     gap: 20px
 }
@@ -34,8 +33,8 @@ body {
     background-color: aliceblue;
     flex-direction: column;
     border-radius: 10%;
-    box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.103);
-    ;
+    box-shadow: 10px 1px 10px rgba(10, 10, 10, 0.103);
+    
 }
 
 .perfil h2 {
