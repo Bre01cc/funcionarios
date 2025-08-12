@@ -1,3 +1,12 @@
 'use script'
 
-import jsonFuncionarios from './funcionarios.json' with{type:"json"}
+import Funcionarios from './funcionarios.json' with{type:"json"}
+
+const galeria = document.getElementById('galeria')
+const perfil = document.getElementById('perfil')
+
+const nome = Funcionarios.map(func=>func.nome)
+
+console.log(nome)
+
+    
