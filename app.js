@@ -2,11 +2,21 @@
 
 import Funcionarios from './funcionarios.json' with{type:"json"}
 
-const galeria = document.getElementById('galeria')
-const perfil = document.getElementById('perfil')
 
-const nome = Funcionarios.map(func=>func.nome)
 
-console.log(nome)
+
+function cardPerfil(funcionario){
+    const galeria = document.getElementById('galeria')
+
+    const perfil = document.createElement('div')
+    const nomeTech = document.createElement('h2')
+    const setorText = document.createElement('p')
+    const imgPerfil = document.createElement('img')
+
+    imgPerfil.src=Funcionarios[0].nome
+
+}
+.
+
 
     
